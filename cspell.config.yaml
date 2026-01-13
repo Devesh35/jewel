@@ -1,0 +1,22 @@
+version: "0.2"
+language: en
+useGitignore: true
+files:
+  - "src/**/*.{ts,tsx,js,jsx,json,md,html}"
+  - "package.json"
+  - "tsconfig.json"
+  - "README.md"
+dictionaries:
+  - project-keywords
+dictionaryDefinitions:
+  - name: project-keywords
+    path: "./src/config/cspell/keywords.txt"
+    description: Project-specific keywords
+    addWords: true
+ignorePaths:
+  - ".git"
+  - ".husky/**"
+  - "node_modules"
+  - "dist"
+  - "coverage"
+  - "package-lock.json"

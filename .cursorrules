@@ -1,0 +1,5 @@
+- ALWAYS and STRICTLY follow agent.md for every task and decision; agent.md overrides any other guidance.
+- Prioritize instructions in agent.md for all code changes and reviews without exception.
+- Make sure to add a proper permanent fix and not a temporary patch fix.
+
+---------------Add instructions or constrains as necessary---------------

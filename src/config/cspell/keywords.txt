@@ -1,0 +1,9 @@
+bcryptjs
+dotenv
+mongodb
+mongoose
+nodemailer
+pino
+smtp
+typescript
+zod
